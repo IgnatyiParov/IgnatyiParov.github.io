@@ -45,4 +45,28 @@ $(document).ready(function(){
 
 
   });
+  $("#amap").on("click", function(e){
+    var anchor = $(this);
+    $('html, body').stop().animate({
+        scrollTop: $(anchor.attr('href')).offset().top
+    }, 777);
+    e.preventDefault();
+    return false;
+});
+$("#agal").on("click", function(e){
+  var anchor = $(this);
+  $('html, body').stop().animate({
+      scrollTop: $(anchor.attr('href')).offset().top
+  }, 777);
+  e.preventDefault();
+  return false;
+});
+$("#amain").on("click", function(e){
+  var anchor = $(this);
+  $('html, body').stop().animate({
+      scrollTop: $(anchor.attr('href')).offset().top
+  }, 777);
+  e.preventDefault();
+  return false;
+});
 })

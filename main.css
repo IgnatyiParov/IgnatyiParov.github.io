@@ -13,6 +13,10 @@ header {
 
 
 }
+header a{
+    color:black;
+    text-decoration: none;
+}
 .block-1 {
     padding-top: 100px;
     width: 100%;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Страница</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
@@ -12,13 +12,13 @@
 </head>
 <body>
     <header>
-        <h2>Chin</h2>
+        <h2 ><a href="#main" id="amain">Chin</a></h2>
 
-                <a><div class="menu">Галерея</div></a>
-                <a><div class="menu">Контакты</div></a>
+                <a href="#gallery" id="agal"><div class="menu transition">Галерея</div></a>
+                <a href="#map" id="amap"><div class="menu transition">Контакты</div></a>
  
     </header>
-    <div class="block-1">
+    <div class="block-1" id="main">
         <h1>Victor Chin</h1>
     </div>
     <div class="cont1">
@@ -40,7 +40,7 @@
             </div>
         </div>
         <!-- Slideshow container -->
-        <div class="slideshow-container">
+        <div class="slideshow-container" id="gallery">
 
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade">
